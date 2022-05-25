@@ -22,6 +22,7 @@
       "@/scripts": ["foundation/scripts"],
       "header/*": ["foundation/core/component/modules/app/primary/header/*"],
       "footer/*": ["foundation/core/component/modules/app/primary/footer/*"],
+      "otherextra/*": ["foundation/core/component/modules/app/primary/other_extra/*"],
       "layouts/*": ["foundation/core/component/modules/app/layouts/*"],
 
     }

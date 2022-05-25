@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "header/primary";
-import Footer from "footer/foc";
+import Footer from "footer/main";
+import Extra from "otherextra/extra"
 
 type Props = {
   children: React.ReactNode;
@@ -12,6 +13,7 @@ return (
 <Header />
 {children}
 <Footer />
+<Extra />
 </>
 );
 };
