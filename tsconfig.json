@@ -13,8 +13,19 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/core": ["foundation/core"],
+      "@/lib": ["foundation/lib"],
+      "@/root": ["foundation/root"],
+      "@/scripts": ["foundation/scripts"],
+      "header/*": ["foundation/core/component/modules/app/primary/header/*"],
+      "footer/*": ["foundation/core/component/modules/app/primary/footer/*"],
+      "layouts/*": ["foundation/core/component/modules/app/layouts/*"],
+
+    }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "foundation/core/component/modules/app/primary/header/primary.jsx", "pages/_document.js", "pages/_document.js", "pages/_document.js"],
   "exclude": ["node_modules"]
 }
