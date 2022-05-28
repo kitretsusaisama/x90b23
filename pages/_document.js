@@ -1,7 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
-import { loadEnvConfig } from '@next/env'
-
-
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -23,6 +20,15 @@ class MyDocument extends Document {
 <link rel='stylesheet' id='smartmag-icons-css'  href='base/css/icons/icons0e7d.css?ver=5.2.0' type='text/css' media='all' />
 <script type='text/javascript' src='base/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
 <script type='text/javascript' src='base/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+=======
+<link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='https://s.w.org/' />
+<link rel='stylesheet' id='smartmag-core-style'  href='base/styles/main.css' type='text/style' media='all' />
+<link crossorigin="anonymous" rel='stylesheet' id='smartmag-fonts-style'  href='https://fonts.googleapis.com/style?family=Public+Sans%3A400%2C400i%2C500%2C600%2C700' type='text/style' media='all' />
+<link rel='stylesheet' id='magnific-popup-style'  href='base/styles/lightbox0e7d.css' type='text/style' media='all' />
+<link rel='stylesheet' id='smartmag-icons-style'  href='base/styles/icons/icons0e7d.css?' type='text/style' media='all' />
+<script type='text/javascript' src='base/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='base/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
 </Head>
 {/*<body class="home page-template page-template-page-templates page-template-no-wrapper page-template-page-templatesno-wrapper-php page page-id-786 has-lb has-lb-sm has-sb-sep layout-normal elementor-default elementor-kit-6 elementor-page elementor-page-786">*/}
           <Main />
