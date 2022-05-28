@@ -24,7 +24,7 @@
       "footer/*": ["foundation/core/component/modules/app/primary/footer/*"],
       "otherextra/*": ["foundation/core/component/modules/app/primary/other_extra/*"],
       "layouts/*": ["foundation/core/component/modules/app/layouts/*"],
-
+      "searchArchHOme":["foundation/lib/site_data/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "foundation/core/component/modules/app/primary/header/primary.jsx", "pages/_document.js", "pages/_document.js", "pages/_document.js"],
