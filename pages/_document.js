@@ -20,7 +20,6 @@ class MyDocument extends Document {
 <link rel='stylesheet' id='smartmag-icons-css'  href='base/css/icons/icons0e7d.css?ver=5.2.0' type='text/css' media='all' />
 <script type='text/javascript' src='base/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
 <script type='text/javascript' src='base/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
-=======
 <link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
 <link rel='dns-prefetch' href='https://s.w.org/' />
 <link rel='stylesheet' id='smartmag-core-style'  href='base/styles/main.css' type='text/style' media='all' />
