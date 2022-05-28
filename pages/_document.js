@@ -14,6 +14,7 @@ class MyDocument extends Document {
       <Html>
         <Head>     
 <meta name='robots' content='max-image-preview:large' />
+<meta name="owner" src="./owner.txt"/>
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 <link rel='dns-prefetch' href='http://s.w.org/' />
 <link rel='stylesheet' id='smartmag-core-css'  href='base/css/main.css' type='text/css' media='all' />
