@@ -17,7 +17,6 @@
     "analyze": "cross-env ANALYZE=true next build",
    "lint": "next lint --fix --dir pages --dir components --dir lib",
     "type-check": "tsc",
-    "prepare": "husky install",
     "commit": "cz"
   },
   "dependencies": {
